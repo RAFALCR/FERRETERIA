@@ -8,99 +8,733 @@
 <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
 </head> 
-<body> 
+<body>
+
 
 <div data-role="page" id="Principal"  data-theme="e">
+
 	<div data-role="header">
 		<h1>FERRETERIA</h1>
 	</div>
+    
 	<div data-role="content" data-theme="c" >	
 		<ul data-role="listview">
             <li data-role="list-divider" role="heading"> CATEGORIAS </li>
-			<li><a href="#HERRAMIENTAS" data-transition="slide">HERRAMIENTAS</a></li>
-            <li><a href="#JARDIN" data-transition="slide">JARDIN</a></li>
-			<li><a href="#LIMPIEZA" data-transition="slide">LIMPIEZA</a></li>
-            <li><a href="#PISOS" data-transition="slide">PISOS</a></li>
-            <li><a href="#PLOMERIA" data-transition="slide">PLOMERIA</a></li>
-		</ul>		
-	</div>
+			<li><a href="#herramientas" data-transition="slide">HERRAMIENTAS</a></li>
+            <li><a href="#jardin" data-transition="slide">JARDIN</a></li>
+			<li><a href="#limpieza" data-transition="slide">LIMPIEZA</a></li>
+            <li><a href="#pisos" data-transition="slide">PISOS</a></li>
+            <li><a href="#plomeria" data-transition="slide">PLOMERIA</a></li>
+		</ul>	
+        <div align="center">
+    	<img src="FERRE.jpg" width="146" height="104" > 
+	    </div>	
+	</div> 
+    
 	<div data-role="footer" data-position="fixed">
-		<h4>Pie de página</h4>
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+    
 	</div>
 </div>
 
-<div data-role="page" id="HERRAMIENTAS">
+
+
+
+
+
+
+<div data-role="page" id="herramientas">
+
 	<div data-role="header">
-    <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>HERRAMIENTAS</h1>
 	</div>
+    
 	<div data-role="content" style="text-align:center">
-		Contenido	<br/>
-        salto de linea <br/>   
-        otro salto de linea<br/>
+	    <ul data-role="listview">
+            	<li data-role="list-divider" role="heading"> TIPOS DE HERRAMIENTA </li>
+				<li><a href="#corte" data-transition="slide">HERRAMIENTA DE CORTE</a></li>
+    	        <li><a href="#electricas" data-transition="slide">HERRAMIENTA ELECTRICA</a></li>
+				<li><a href="#sujecion" data-transition="slide">HERRAMIENTA DE SUJECION</a></li>
+            	<li><a href="#golpe" data-transition="slide">HERRAMIENTA DE GOLPE</a></li>
+        	    <li><a href="#medicion" data-transition="slide">HERRAMIENTA DE MEDICION</a></li>
+		</ul>	    	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
 	</div>
+	
 </div>
 
-<div data-role="page" id="JARDIN">
+
+
+
+
+
+
+
+<div data-role="page" id="corte">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>HERRAMIENTAS</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>PINZA DE CORTE DIAGONAL TRUPERE</h3>   			 
+                <img src="PINZA DE CORTE DIAGONALTRUPER.jpg" width="146" height="104">          
+    		</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>KIT DE 5 SIERRAS CORTACIRCULOS TRUPER</h3>
+                <img src="SIERRAS CORTACIRCULOS.jpg" width="146" height="104" >
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+<div data-role="page" id="electricas">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>HERRAMIENTAS</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>ATORNILLADOR INALAMBRICO 12V.</h3>   			 
+                <img src="ATORNILLADOR INALAMBRICO 12V MILWAUKEE.png" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>ROTOMARTILLO 3/8</h3>
+                <img src="ROTOMARTILLO  BACK & DECKER.jpg" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+<div data-role="page" id="sujecion">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>HERRAMIENTAS</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>REMACHADORA 10</h3>   			 
+                <img src="REMACHADORA 10.jpg" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>PISTOLA DE SILICON</h3>
+                <img src="PISTOLA DE SILICON.jpg" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+         	</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+<div data-role="page" id="golpe">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>HERRAMIENTAS</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>BARRETA DE PUNTA TRUPER</h3>   			 
+                <img src="BARRETA DE PUNTA TRUPER.jpg" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>MARRO OCTAGONAL 12 LBS  TRUPER</h3>
+                <img src="MARRO OCTAGONAL 12 LBS  TRUPER.png" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+<div data-role="page" id="medicion">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>HERRAMIENTAS</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>FLEXOMETRO 5M</h3>   			 
+                <img src="FLEXOMETRO 5M.jpg" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>NIVEL 3 GOTAS</h3>
+                <img src="NIVEL 3 GOTAS.jpg" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+<div data-role="page" id="jardin">
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>JARDIN</h1>
 	</div>
     <div data-role="content" style="text-align:center">
-		Contenido	  <br/>
-        salto de linea<br/>   
-        otro salto de linea<br/>
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>MALLA NEGRA</h3>   			 
+                <img src="MALLA NEGRO.jpg" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>MANGUERA 30M USO RUDO</h3>
+                <img src="MQNGUERA 30M USO RUDO.jpg" width="146" height="104">
+    		</div> 
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>NUTRIPASTO</h3>
+                <img src="NUTRIPASTO.png" width="146" height="104">
+    		</div>
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>SULFATO DE AMONIO</h3>
+                <img src="SULFATO.png" width="146" height="104">
+    		</div>
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>TIERRA NEGRA </h3>
+                <img src="TIERRA.PNG" width="146" height="104">
+    		</div>           
+    	</div>		    	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-    </div>
     
-    <div data-role="page" id="LIMPIEZA">
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    <div data-role="page" id="limpieza">
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>LIMPIEZA</h1>
 	</div>
-	<div data-role="content" style="text-align:center">	
-		Contenido	  <br/>
-        salto de linea<br/>   
-        otro salto de linea<br/>	
+ 	<div data-role="content" style="text-align:center">
+	    <ul data-role="listview">
+            	<li data-role="list-divider" role="heading"> TIPOS DE HERRAMIENTA </li>
+				<li><a href="#artilimp" data-transition="slide">ARTICULOS DE LIMPIEZA</a></li>
+    	        <li><a href="#equilimp" data-transition="slide">EQUIPOS DE LIMPIEZA</a></li>				
+		</ul>	    	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
 	</div>
-</div>   
-    <div data-role="page" id="PISOS">
+</div>
+
+
+
+
+
+
+<div data-role="page" id="artilimp">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>ARTICULOS DE LIMPIEZA</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>PLEGE MULTIUSOS 650ML</h3>   			 
+                <img src="PLEGE MULTIUSOS 650ML.png" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>TOALLITAS DESINFECTANTES</h3>
+                <img src="TOALLITAS DESINFECTANTES.jpg" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+<div data-role="page" id="equilimp">
+
+	<div data-role="header">
+    	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+		<h1>EQUIPOS DE LIMPIEZA</h1>
+	</div>
+    
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>HIDROLAVADORA ALTA PRESION</h3>   			 
+                <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>ASPIRADORA 4 GAL</h3>
+                <img src="ASPIRADORA 4 GAL.jpg" width="146" height="104">
+    		</div>            
+    	</div>		    	
+	</div>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+ <div data-role="page" id="pisos">
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>PISOS</h1>
 	</div>
-<div data-role="content" style="text-align:center">	
-		Contenido		<br/>
-        salto de linea<br/>   
-        otro salto de linea<br/>	
+	<div data-role="content" style="text-align:center">
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>ALFOMBRA</h3>   			 
+                <img src="ALFOMBRA.png" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>BOQUILLA</h3>
+                <img src="BOQUILLA.png" width="146" height="104">
+    		</div>     
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>PISO MADERA</h3>
+                <img src="PISO MADERA.png" width="146" height="104">
+    		</div> 
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>PISO TEXAS</h3>
+                <img src="PISO TEXAS.png" width="146" height="104">
+    		</div> 
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>TAPETE JULIA</h3>
+                <img src="TAPETE JULIA.png" width="146" height="104">
+    		</div>        
+    	</div>		    	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
 	</div>
-    </div>
-    <div data-role="page" id="PLOMERIA">
+</div>
+
+
+
+
+
+
+    <div data-role="page" id="plomeria">
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>PLOMERIA</h1>
 	</div>
 	<div data-role="content" style="text-align:center">
-		Contenido		<br/>
-        salto de linea<br/>   
-        otro salto de linea<br/>	
+	   <div data-role="collapsible-set">
+   			<div data-role="collapsible" data-collapsed="true">
+    			<h3>LLAVE DE NARIZ</h3>   			 
+                <img src="LLAVE DE NARIZ.png" width="146" height="104">          	</div>
+     		<div data-role="collapsible" data-collapsed="true">
+    			<h3>MANGUERA FLEXIBLE</h3>
+                <img src="MANGUERA FLEXIBLE.png" width="146" height="104">
+    		</div>     
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>TAPON DE LATON</h3>
+                <img src="TAPON DE LATON.png" width="146" height="104">
+    		</div> 
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>TEE LATON</h3>
+                <img src="TEE LATON.png" width="146" height="104">
+    		</div> 
+            <div data-role="collapsible" data-collapsed="true">
+    			<h3>TERMOPAR</h3>
+                <img src="TERMOPAR.png" width="146" height="104">
+    		</div>        
+    	</div>		    	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+    
+    <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+    		<ul>
+   				 <li>
+    				<a href="#nosotros" data-transition="slide" data-icon="custom">
+    				NOSOTROS
+                    </a>
+   				 </li>
+   				 <li>
+    				<a href="#contacto" data-transition="slide" data-icon="custom">
+    				CONTACTO
+   					</a>
+    			</li>
+                <li>
+    				<a href="#envios" data-transition="slide" data-icon="custom">
+    				ENVIOS
+   					</a>
+    			</li>
+    		</ul>
+    	</div>
 	</div>
 </div>
 
+
+
+
+
+
+
+<div data-role="page" id="nosotros"  data-theme="e">
+
+	<div data-role="header">
+		<h1>NOSOTROS</h1>
+         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+	</div>
+    
+	<div data-role="content" data-theme="c" >	
+        <div align="center">
+    	<img src="FERRE.jpg" width="146" height="104" > <br/>
+        </div>
+        <div align="justify">
+    	    Somos una tienda online segura y con un proceso de compra sencillo.<br/><br/>
+
+			Pertenecemos a un grupo con más de 30 años de experiencia integrados en 9 tiendas, 8 en el área metropolitana y 1 en el extranjero. Además contamos con una fábrica de clavos, tornillos, mallas y aceros en el estado de Querétaro.<br/><br/>
+
+			Nuestra matriz está ubicada en Vía Gustavo Baz No.401 Fraccionamiento Industrial Tlaxcolpan en Tlalnepantla, Estado de México.
+	    </div>	
+	</div>    
+</div>
+
+
+<div data-role="page" id="contacto"  data-theme="e">
+
+	<div data-role="header">
+		<h1>CONTACTO</h1>
+         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+	</div>
+    
+	<div data-role="content" data-theme="c" >	
+        <div align="center">
+    	<img src="store_logo.png" width="146" height="104" > <br/>
+        </div>
+        <div align="justify">
+        <br/>
+    	    VISÍTANOS EN:<br/><br/>
+
+			Av. San Juan No.90 Col. UNion y Progreso Ixtaczoquitlan Veracruz Mexico.<br/><br/><br/><br/>
+
+			CONTÁCTANOS:<br/><br/>
+
+			01 272 (72) 1-30-15<br/>
+			9:00 a 19:00 hrs. Lunes a Sábado<br/>
+			ventas@superferreteria.com<br/>
+	    </div>	
+	</div>    
+</div>
+
+
+<div data-role="page" id="envios"  data-theme="e">
+
+	<div data-role="header">
+		<h1>ENVIOS</h1>
+         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+	</div>
+    
+	<div data-role="content" data-theme="c" >	
+        <div align="center">
+    	<img src="FERRE.jpg" width="146" height="104" > <br/>
+        </div>
+        <div align="justify"> <br/>
+    	   COBERTURAS Y POLÍTICAS DE ENVÍO <br/> <br/>
+
+Realizamos entregas en toda la Republica Mexicana 100.00 M/N a cualquier región del país.  <br/> <br/>
+
+Para más información comunicate con nosotros al correo <br/> <br/>ventas@ferreteriamodelo.com o llama a nuestras oficinas +01 (55) 5321-4040  <br/>
+	    </div>	
+	</div>    
+</div>
 </body>
 </html>
