@@ -674,17 +674,19 @@
          	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 	</div>
 
-	<div data-role="content" data-theme="f" >	
-
-            <a href="foto" data-rel="popup" class=" ui-btn"><img src="FERRE.jpg" width="146" height="104" ></a>
-            
+	<div data-role="content" data-theme="f" align="center">	
+			<a href="#foto" data-rel="popup" data-position-to="window">
+				<img src="FERRE.jpg" alt="Skaret View" style="width:100px;">
+            </a>                      
             <div align="center">                    
 	        <a href="#lala">lala</a>           
         </div>
         
-        <div align="right" > 
-        <a href="hola"  data-rel="popup" class="ui-btn ui-icon-delete">popup</a>
-        </div>
+      
+        <a href="#hola" data-rel="popup"data-position-to="window">
+        	popup
+        </a>
+
         
         <div align="justify">  
     	    Somos una tienda online segura y con un proceso de compra sencillo.<br/><br/>
@@ -701,10 +703,10 @@
 	    </div>	          
 	</div> 
     <div data-role="popup" id="hola">
-		<p> hola mundo </p>
+		<p> hola popup </p>
 	</div>    
      <div data-role="popup" id="foto">
-		 <a><img src="FERRE.jpg"  style=""width="192" height="208""></a>
+ 		       <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="FERRE.jpg" style="width:300px;height:150px;" alt="Skaret View">
 	</div>
 </div>
 
