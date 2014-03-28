@@ -10,7 +10,7 @@
 <body>
 
 
-<div data-role="page" id="Principal"  data-theme="a">
+<div data-role="page" id="Principal"  data-theme="c">
 
 	<div data-role="header">
 		<h1>FERRETERIA</h1>
@@ -26,7 +26,8 @@
             <li><a href="#plomeria" data-transition="slide">PLOMERIA</a></li>
 		</ul>	
         <div align="center">
-    	<img src="FERRE.jpg" width="146" height="104" > 
+        <br>
+    	<img src="FERRE.jpg" width="146" height="106" > 
 	    </div>	
 	</div> 
     
@@ -671,20 +672,21 @@
 	<div data-role="header">
 		<h1>NOSOTROS</h1>
          	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-
 	</div>
-    
-	<div data-role="content" data-theme="c" >	
-        <div align="center">
-    	<img src="FERRE.jpg" width="146" height="104" > <br/>
 
-         <a href="#lala">lala</a>
+	<div data-role="content" data-theme="f" >	
 
+            <a href="foto" data-rel="popup" class=" ui-btn"><img src="FERRE.jpg" width="146" height="104" ></a>
+            
+            <div align="center">                    
+	        <a href="#lala">lala</a>           
         </div>
-        <div align="justify">
-    
-
-     
+        
+        <div align="right" > 
+        <a href="hola"  data-rel="popup" class="ui-btn ui-icon-delete">popup</a>
+        </div>
+        
+        <div align="justify">  
     	    Somos una tienda online segura y con un proceso de compra sencillo.<br/><br/>
 
 			Pertenecemos a un grupo con más de 30 años de experiencia integrados en 9 tiendas, 8 en el área metropolitana y 1 en el extranjero. Además contamos con una fábrica de clavos, tornillos, mallas y aceros en el estado de Querétaro.<br/><br/>
@@ -692,13 +694,18 @@
 			Nuestra matriz está ubicada en Vía Gustavo Baz No.401 Fraccionamiento Industrial Tlaxcolpan en Tlalnepantla, Estado de México.
             <div data-role="controlgroup" data-type="horizontal">
 				<p>Botones</p>
-                <a href="#page1" class="ui-btn">Principal</a>
-                <a href="#page2" class="ui-btn">Secundaria</a>
-                <a href="#page1" class="ui-btn">Otra</a>
-                
+                <a href="#Principal" class="ui-btn-inline">Principal</a>
+                <a href="#contacto" class="ui-btn-inline">Secundaria</a>
+                <a href="#envios" class="ui-btn-inline">Otra</a>                
             </div>
-	    </div>	
+	    </div>	          
+	</div> 
+    <div data-role="popup" id="hola">
+		<p> hola mundo </p>
 	</div>    
+     <div data-role="popup" id="foto">
+		 <a><img src="FERRE.jpg"  style=""width="192" height="208""></a>
+	</div>
 </div>
 
 
