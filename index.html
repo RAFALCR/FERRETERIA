@@ -11,12 +11,20 @@
 
 
 <div data-role="page" id="Principal"  data-theme="c">
-
-	<div data-role="header">
+	<div data-role="panel" id="mipanel">
+    	<h2>PANEL</h2>
+        <P>MEN 1</P>
+        <P>MEN 2</P>
+       	<P>MEN 3</P>
+		<P>MEN 4</P>
+		<P>MEN 5</P>
+    </div>
+    
+	<div data-role="header" data-position="fixed" data-fullscreen="true">
 		<h1>FERRETERIA</h1>
 	</div>
     
-	<div data-role="content" data-theme="c" >	
+	<div data-role="content" data-theme="E" >	
 		<ul data-role="listview">
             <li data-role="list-divider" role="heading"> CATEGORIAS </li>
 			<li><a href="#herramientas" data-transition="slide">HERRAMIENTAS</a></li>
@@ -28,10 +36,12 @@
         <div align="center">
         <br>
     	<img src="FERRE.jpg" width="146" height="106" > 
+        <p>BIENVENIDO A SU FERRETEREIA</p>
 	    </div>	
+        <a href="#mipanel">MENU</a>
 	</div> 
     
-	<div data-role="footer" data-position="fixed">
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
 		<div data-role="navbar" data-iconpos="top">
     		<ul>
    				 <li>
