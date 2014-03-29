@@ -13,7 +13,7 @@
 <div data-role="page" id="Principal"  data-theme="c">
 	<div data-role="panel" id="mipanel">
     	<h2>PANEL</h2>
-        <P>MEN 1</P>
+        <a href="#columnas" data-transition="slide">COLUMNAS</a>
         <P>MEN 2</P>
        	<P>MEN 3</P>
 		<P>MEN 4</P>
@@ -729,21 +729,33 @@
 	</div>
     
 	<div data-role="content" data-theme="c" >	
-        <div align="center">
-    	<img src="store_logo.png" width="146" height="104" > <br/>
-        </div>
-        <div align="justify">
-        <br/>
-    	    VISÍTANOS EN:<br/><br/>
-
-			Av. San Juan No.90 Col. UNion y Progreso Ixtaczoquitlan Veracruz Mexico.<br/><br/><br/><br/>
-
-			CONTÁCTANOS:<br/><br/>
-
-			01 272 (72) 1-30-15<br/>
-			9:00 a 19:00 hrs. Lunes a Sábado<br/>
-			ventas@superferreteria.com<br/>
-	    </div>	
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive" data-column-btn-text="Boton" id="mitabla">
+        <thead>
+        <tr>
+ 	       	<th data-priority="3">ID</th>
+    	    <th data-priority="4">NOMBRE</th>
+        	<th>MATRICULA</th>
+            <th data-priority="2">EDAD</th>
+            <th data-priority="1">SEXO</th>
+         </tr>
+         </thead>
+         <tbody>
+			<tr>
+				<td>1</td>
+                <td>ELIZABETH</td>
+                <td>040506</td>
+                <td>15</td>
+                <td>F</td>
+			</tr>
+        	<tr>
+				<td>2</td>
+                <td>JOSE</td>
+	            <td>040507</td>
+	            <td>14</td>
+	            <td>M</td>
+			</tr>
+		</tbody>             
+    </table>                             
 	</div>    
 </div>
 
@@ -766,13 +778,12 @@ Realizamos entregas en toda la Republica Mexicana 100.00 M/N a cualquier región
 
 Para más información comunicate con nosotros al correo <br/> <br/>ventas@ferreteriamodelo.com o llama a nuestras oficinas +01 (55) 5321-4040  <br/>
 	    </div>	
-	</div>    
-    
-    
-    
-    
-    
+	</div>     
 </div>
+
+
+
+
 <div data-role="page" data-dialog="true" id="lala">   
     <div data-role="header">
 		<h1>LALA</h1>
@@ -782,8 +793,38 @@ Para más información comunicate con nosotros al correo <br/> <br/>ventas@ferre
 			lalalalala
 	    </div>	
 	</div>   
-        
-	</div> 
+</div> 
+
+
+
+
+<div data-role="page"  data-theme="c" id="columnas">   
+    <div data-role="header">
+		<h1>EJEMPLO DE COLUMNAS</h1>
+	</div>
+	<div data-role="content" data-theme="c" >	                
+		<div class="ui-grid-b">
+			<div class="ui-block-a">
+				<h3>PINZA DE CORTE </h3>   			 
+                <img src="PINZA DE CORTE DIAGONALTRUPER.jpg" width="146">
+                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+			</div>
+	
+    		<div class="ui-block-b">
+				<h3>HIDROLAVADORA </h3>   			 
+                <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146">
+                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+			</div>
+
+			<div class="ui-block-c">
+				<h3>PISTOLA DE SILICON</h3>
+                <img src="PISTOLA DE SILICON.jpg" width="146" height="104">
+                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+			</div>
+		</div>
+</div>
+	</div>   
+</div>
 
 </body>
 </html>
