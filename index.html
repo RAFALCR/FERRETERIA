@@ -1,133 +1,203 @@
 <!DOCTYPE html> 
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 <title>FERRETERIA</title>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	<link rel="stylesheet" href= 	"http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </head> 
 <body>
+<!-----               esto es un SEPARADOR            ----->
+	<div data-role="page" id="INICIO"  data-theme="b">  
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div> 
+<!-----               esto es un SEPARADOR            ----->           
+		<div data-role="header" align="center" data-position="fixed" data-fullscreen="true" >
+			<h1>FERRETERIA</h1>
+		</div>
+<!-----               esto es un SEPARADOR            ----->            
+		<div data-role="content" data-theme="b" >	
+        	<div align="center">
+		        <br>
+                <p>BIENVENIDO A SU FERRETEREIA</p>
+    			<img src="FERRE.jpg" width="196" height="146" > 
+            </div>
+            <div align="justify">
+            	<P>NUESTROS PRODUCTOS</P>
 
+				<P>En nuestra tienda online usted encontrará una amplia gama de productos para cubrir sus necesidades en el ramo de la contrucción, automotriz, industrial o del hogar.</P>
 
-<div data-role="page" id="Principal"  data-theme="c">
-	<div data-role="panel" id="mipanel">
-    	<h2>PANEL</h2>
-        <a href="#columnas" data-transition="slide">COLUMNAS</a>
-        <P>MEN 2</P>
-       	<P>MEN 3</P>
-		<P>MEN 4</P>
-		<P>MEN 5</P>
-    </div>
-    
-	<div data-role="header" data-position="fixed" data-fullscreen="true">
-		<h1>FERRETERIA</h1>
+				<p>Estamos respaldados con una completa garantía en todos los artículos que comercializamos. Tenemos a su disposición más de 50,000 productos de diferentes líneas y marcas.</p>
+
+				<P>NUESTRA MISIÓN</P>
+
+				<P>Comercializar productos de alta calidad en el ramo ferretero y de la construcción satisfaciendo las necesidades de nuestros clientes con servicio, calidad y precio trabajando día con día en valores como: honradez, honestidad y respeto así mismo motivando constantemente nuestro recurso humano para aumentarla eficiencia de nuestra organización dando como resultado la rentabilidad de la empresa.</P>
+        	</div>	    
+        </div> 
+<!-----               esto es un SEPARADOR            ----->        
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->        
+  	</div>
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+	<div data-role="page" id="PRODUCTOS"  data-theme="b"> 
+    		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div> 
+<!-----               esto es un SEPARADOR            ----->  	  
+		<div data-role="header" align="center" data-position="fixed" data-fullscreen="true" >
+			<h1>PRODUCTOS</h1>
+	        <A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>
+		</div>
+<!-----               esto es un SEPARADOR            ----->    
+		<div data-role="content" data-theme="b" >	
+        	<div align="center">
+				<ul data-role="listview">
+	                <BR>
+                    <BR>
+                    <BR>
+					<li><a href="#HERRAMIENTAS" data-transition="slide">HERRAMIENTAS</a></li>
+    		        <li><a href="#JARDIN" data-transition="slide">JARDIN</a></li>
+					<li><a href="#LIMPIEZA" data-transition="slide">LIMPIEZA</a></li>
+            		<li><a href="#PISOS" data-transition="slide">PISOS</a></li>
+	            	<li><a href="#PLOMERIA" data-transition="slide">PLOMERIA</a></li>
+				</ul>	
+		    </div>	                  
+        </div> 
+<!-----               esto es un SEPARADOR            ----->          
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->
 	</div>
-    
-	<div data-role="content" data-theme="E" >	
-		<ul data-role="listview">
-            <li data-role="list-divider" role="heading"> CATEGORIAS </li>
-			<li><a href="#herramientas" data-transition="slide">HERRAMIENTAS</a></li>
-            <li><a href="#jardin" data-transition="slide">JARDIN</a></li>
-			<li><a href="#limpieza" data-transition="slide">LIMPIEZA</a></li>
-            <li><a href="#pisos" data-transition="slide">PISOS</a></li>
-            <li><a href="#plomeria" data-transition="slide">PLOMERIA</a></li>
-		</ul>	
-        <div align="center">
-        <br>
-    	<img src="FERRE.jpg" width="146" height="106" > 
-        <p>BIENVENIDO A SU FERRETEREIA</p>
-	    </div>	
-        <a href="#mipanel">MENU</a>
-	</div> 
-    
-	<div data-role="footer" data-position="fixed" data-fullscreen="true">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-    
-	</div>
-</div>
-
-
-
-
-
-
-
-<div data-role="page" id="herramientas">
-
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<div data-role="page" id="HERRAMIENTAS" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>HERRAMIENTAS</h1>
+        <A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	    <ul data-role="listview">
-            	<li data-role="list-divider" role="heading"> TIPOS DE HERRAMIENTA </li>
-				<li><a href="#corte" data-transition="slide">HERRAMIENTA DE CORTE</a></li>
-    	        <li><a href="#electricas" data-transition="slide">HERRAMIENTA ELECTRICA</a></li>
-				<li><a href="#sujecion" data-transition="slide">HERRAMIENTA DE SUJECION</a></li>
-            	<li><a href="#golpe" data-transition="slide">HERRAMIENTA DE GOLPE</a></li>
-        	    <li><a href="#medicion" data-transition="slide">HERRAMIENTA DE MEDICION</a></li>
+				<li><a href="#CORTE" data-transition="slide">HERRAMIENTA DE CORTE</a></li>
+    	        <li><a href="#ELECTRICAS" data-transition="slide">HERRAMIENTA ELECTRICA</a></li>
+				<li><a href="#SUJECION" data-transition="slide">HERRAMIENTA DE SUJECION</a></li>
+            	<li><a href="#GOLPE" data-transition="slide">HERRAMIENTA DE GOLPE</a></li>
+        	    <li><a href="#MEDICION" data-transition="slide">HERRAMIENTA DE MEDICION</a></li>
 		</ul>	    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->    
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->	
 </div>
-
-
-
-
-
-
-
-
-<div data-role="page" id="corte">
-
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<div data-role="page" id="CORTE" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-		<h1>HERRAMIENTAS</h1>
+		<h1>H. DE CORTE</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS </A>        
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
@@ -140,93 +210,107 @@
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->      
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->  	
 </div>
-
-
-
-
-
-
-
-<div data-role="page" id="electricas">
-
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<div data-role="page" id="ELECTRICAS" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->  
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-		<h1>HERRAMIENTAS</h1>
+		<h1>H. ELECTRICAS</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS </A>
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->      
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>ATORNILLADOR INALAMBRICO 12V.</h3>   			 
-                <img src="ATORNILLADOR INALAMBRICO 12V MILWAUKEE.png" width="146" height="104">          	</div>
+                <img src="ATORNILLADOR INALAMBRICO 12V MILWAUKEE.png" width="146" height="104">          								 			</div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>ROTOMARTILLO 3/8</h3>
                 <img src="ROTOMARTILLO  BACK & DECKER.jpg" width="146" height="104">
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->      
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->  	
 </div>
-
-
-
-
-
-
-
-<div data-role="page" id="sujecion">
-
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<div data-role="page" id="SUJECION" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div> 
+<!-----               esto es un SEPARADOR            ----->  
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-		<h1>HERRAMIENTAS</h1>
+		<h1>H. DE SUEJECION</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS </A>        
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->      
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
@@ -238,143 +322,171 @@
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-         	</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->     
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            -----> 	
 </div>
-
-
-
-
-
-
-
-<div data-role="page" id="golpe">
-
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<div data-role="page" id="GOLPE" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            -----> 
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-		<h1>HERRAMIENTAS</h1>
+		<h1>H. DE GOLPE</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS</A>
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->        
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>BARRETA DE PUNTA TRUPER</h3>   			 
-                <img src="BARRETA DE PUNTA TRUPER.jpg" width="146" height="104">          	</div>
+                <img src="BARRETA DE PUNTA TRUPER.jpg" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>MARRO OCTAGONAL 12 LBS  TRUPER</h3>
                 <img src="MARRO OCTAGONAL 12 LBS  TRUPER.png" width="146" height="104">
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->     
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            -----> 	
 </div>
-
-
-
-
-
-
-<div data-role="page" id="medicion">
-
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<div data-role="page" id="MEDICION" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            -----> 
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-		<h1>HERRAMIENTAS</h1>
+		<h1>H. DE MEDICION</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS </A>        
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->     
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>FLEXOMETRO 5M</h3>   			 
-                <img src="FLEXOMETRO 5M.jpg" width="146" height="104">          	</div>
+                <img src="FLEXOMETRO 5M.jpg" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>NIVEL 3 GOTAS</h3>
                 <img src="NIVEL 3 GOTAS.jpg" width="146" height="104">
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->     
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            -----> 	
 </div>
-
-
-
-
-
-
-<div data-role="page" id="jardin">
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<div data-role="page" id="JARDIN" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            -----> 
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>JARDIN</h1>
+        <A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>   
 	</div>
+<!-----               esto es un SEPARADOR            -----> 
     <div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>MALLA NEGRA</h3>   			 
-                <img src="MALLA NEGRO.jpg" width="146" height="104">          	</div>
+                <img src="MALLA NEGRO.jpg" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>MANGUERA 30M USO RUDO</h3>
                 <img src="MQNGUERA 30M USO RUDO.jpg" width="146" height="104">
@@ -393,185 +505,222 @@
     		</div>           
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
+<!-----               esto es un SEPARADOR            ----->     
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->     
 </div>
-    
-    
-    
-    
-    
-    
-    
-    <div data-role="page" id="limpieza">
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->            
+    <div data-role="page" id="LIMPIEZA" data-theme="b">
+    		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->     
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>LIMPIEZA</h1>
+        <A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>           
 	</div>
+<!-----               esto es un SEPARADOR            ----->     
  	<div data-role="content" style="text-align:center">
 	    <ul data-role="listview">
-            	<li data-role="list-divider" role="heading"> TIPOS DE HERRAMIENTA </li>
-				<li><a href="#artilimp" data-transition="slide">ARTICULOS DE LIMPIEZA</a></li>
-    	        <li><a href="#equilimp" data-transition="slide">EQUIPOS DE LIMPIEZA</a></li>				
+				<li><a href="#ARTILIMP" data-transition="slide">ARTICULOS DE LIMPIEZA</a></li>
+    	        <li><a href="#EQUILIMP" data-transition="slide">EQUIPOS DE LIMPIEZA</a></li>				
 		</ul>	    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
+<!-----               esto es un SEPARADOR            ----->     
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->     
 </div>
-
-
-
-
-
-
-<div data-role="page" id="artilimp">
-
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<div data-role="page" id="ARTILIMP" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>ARTICULOS DE LIMPIEZA</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS</A>         
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>PLEGE MULTIUSOS 650ML</h3>   			 
-                <img src="PLEGE MULTIUSOS 650ML.png" width="146" height="104">          	</div>
+                <img src="PLEGE MULTIUSOS 650ML.png" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>TOALLITAS DESINFECTANTES</h3>
                 <img src="TOALLITAS DESINFECTANTES.jpg" width="146" height="104">
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->    
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->	
 </div>
-
-
-
-
-
-
-
-
-<div data-role="page" id="equilimp">
-
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<div data-role="page" id="EQUILIMP" data-theme="b">
+		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
     	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>EQUIPOS DE LIMPIEZA</h1>
+        <A data-role="button" href="#PRODUCTOS" data-transition="slide">PRODUCTOS</A>         
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>HIDROLAVADORA ALTA PRESION</h3>   			 
-                <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146" height="104">          	</div>
+                <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>ASPIRADORA 4 GAL</h3>
                 <img src="ASPIRADORA 4 GAL.jpg" width="146" height="104">
     		</div>            
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
-	
+<!-----               esto es un SEPARADOR            ----->    
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->	
 </div>
-
-
-
-
-
-
- <div data-role="page" id="pisos">
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+ <div data-role="page" id="PISOS" data-theme="b">
+ 		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+ <!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>PISOS</h1>
+        <A data-role="button" href="#INICIO" data-transition="slide">INICIO</A>         
 	</div>
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>ALFOMBRA</h3>   			 
-                <img src="ALFOMBRA.png" width="146" height="104">          	</div>
+                <img src="ALFOMBRA.png" width="146" height="104">          
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>BOQUILLA</h3>
                 <img src="BOQUILLA.png" width="146" height="104">
@@ -590,45 +739,57 @@
     		</div>        
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
+<!-----               esto es un SEPARADOR            ----->    
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->    
 </div>
-
-
-
-
-
-
-    <div data-role="page" id="plomeria">
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+    <div data-role="page" id="PLOMERIA" data-theme="b">
+    		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div>
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="header">
         <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 		<h1>PLOMERIA</h1>
+        <A data-role="button" href="#INICIO" data-transition="slide">INICIO</A>  
 	</div>
+<!-----               esto es un SEPARADOR            ----->    
 	<div data-role="content" style="text-align:center">
 	   <div data-role="collapsible-set">
    			<div data-role="collapsible" data-collapsed="true">
     			<h3>LLAVE DE NARIZ</h3>   			 
-                <img src="LLAVE DE NARIZ.png" width="146" height="104">          	</div>
+                <img src="LLAVE DE NARIZ.png" width="146" height="104">          	
+            </div>
      		<div data-role="collapsible" data-collapsed="true">
     			<h3>MANGUERA FLEXIBLE</h3>
                 <img src="MANGUERA FLEXIBLE.png" width="146" height="104">
@@ -647,94 +808,208 @@
     		</div>        
     	</div>		    	
 	</div>
-    
-    <div data-role="footer" data-position="fixed">
-		<div data-role="navbar" data-iconpos="top">
-    		<ul>
-   				 <li>
-    				<a href="#nosotros" data-transition="slide" data-icon="custom">
-    				NOSOTROS
-                    </a>
-   				 </li>
-   				 <li>
-    				<a href="#contacto" data-transition="slide" data-icon="custom">
-    				CONTACTO
-   					</a>
-    			</li>
-                <li>
-    				<a href="#envios" data-transition="slide" data-icon="custom">
-    				ENVIOS
-   					</a>
-    			</li>
-    		</ul>
-    	</div>
-	</div>
+<!-----               esto es un SEPARADOR            ----->    
+   		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar" data-iconpos="top">
+    			<ul>
+   					<li>
+    					<a href="#MENU" data-transition="slide" data-icon="custom">
+	    				MENU
+    	                </a>
+   					</li>
+   					<li>
+    					<a href="#CONTACTO" data-transition="slide" data-icon="custom">
+    					CONTACTO
+	   					</a>
+		   			</li>
+    				<li>
+    					<a href="#ENVIOS" data-transition="slide" data-icon="custom">
+    					ENVIOS
+   						</a>
+	    			</li>
+		   		</ul>
+   			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->    
 </div>
-
-
-
-
-
-
-
-<div data-role="page" id="nosotros"  data-theme="e">
-
-	<div data-role="header">
-		<h1>NOSOTROS</h1>
-         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-	</div>
-
-	<div data-role="content" data-theme="f" align="center">	
-			<a href="#foto" data-rel="popup" data-position-to="window">
-				<img src="FERRE.jpg" alt="Skaret View" style="width:100px;">
-            </a>                      
-            <div align="center">                    
-	        <a href="#lala">lala</a>           
-        </div>
-        
-      
-        <a href="#hola" data-rel="popup"data-position-to="window">
-        	popup
-        </a>
-
-        
-        <div align="justify">  
-    	    Somos una tienda online segura y con un proceso de compra sencillo.<br/><br/>
-
-			Pertenecemos a un grupo con más de 30 años de experiencia integrados en 9 tiendas, 8 en el área metropolitana y 1 en el extranjero. Además contamos con una fábrica de clavos, tornillos, mallas y aceros en el estado de Querétaro.<br/><br/>
-
-			Nuestra matriz está ubicada en Vía Gustavo Baz No.401 Fraccionamiento Industrial Tlaxcolpan en Tlalnepantla, Estado de México.
-            <div data-role="controlgroup" data-type="horizontal">
-				<p>Botones</p>
-                <a href="#Principal" class="ui-btn-inline">Principal</a>
-                <a href="#contacto" class="ui-btn-inline">Secundaria</a>
-                <a href="#envios" class="ui-btn-inline">Otra</a>                
-            </div>
-	    </div>	          
-	</div> 
-    <div data-role="popup" id="hola">
-		<p> hola popup </p>
-	</div>    
-     <div data-role="popup" id="foto">
- 		       <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="FERRE.jpg" style="width:300px;height:150px;" alt="Skaret View">
-	</div>
-</div>
-
-
-<div data-role="page" id="contacto"  data-theme="e">
-
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<div data-role="page" id="CONTACTO" data-theme="b">
+<!-----               esto es un SEPARADOR            ----->
 	<div data-role="header">
 		<h1>CONTACTO</h1>
+       	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+	</div>
+<!-----               esto es un SEPARADOR            ----->    
+	<div data-role="content" data-theme="b" >	
+        <div align="center">
+    		<img src="store_logo.png" width="146" height="104" > <br/>
+        </div>
+        <div align="justify">
+        	<br/>
+    	    <P>VISÍTANOS EN:</P>
+			<P>Av. San Juan No.90 Col. UNion y Progreso Ixtaczoquitlan Veracruz Mexico.</P>
+			<P>CONTÁCTANOS:</P>
+			<P>01 272 (72) 1-30-15</P>
+			<P>9:00 a 19:00 hrs. Lunes a Sábado</P>
+			<P>ventas@superferreteria.com</P>
+	    </div>	
+	</div>
+<!-----               esto es un SEPARADOR            ----->            
+</div>
+<!-----               esto es un SEPARADOR            ----->    
+<!-----               esto es un SEPARADOR            ----->    
+<!-----               esto es un SEPARADOR            ----->    
+<!-----               esto es un SEPARADOR            ----->    
+<!-----               esto es un SEPARADOR            ----->    
+<div data-role="page" id="ENVIOS" data-theme="b">
+<!-----               esto es un SEPARADOR            -----> 
+	<div data-role="header">
+		<h1>ENVIOS</h1>
          	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
 	</div>
-    
+<!-----               esto es un SEPARADOR            ----->     
 	<div data-role="content" data-theme="c" >	
-    <table data-role="table" data-mode="columntoggle" class="ui-responsive" data-column-btn-text="Boton" id="mitabla">
+        <div align="center">
+    		<img src="FERRE.jpg" width="146" height="104" > <br/>
+        </div>
+        <div align="justify"> <br/>
+    		<P>COBERTURAS Y POLÍTICAS DE ENVÍO </P>
+			<P>Realizamos entregas en toda la Republica Mexicana 100.00 M/N a cualquier región del país.</p>
+			<P>Para más información comunicate con nosotros al correo <br/> <br/>ventas@ferreteriamodelo.com            o llama a nuestras oficinas +01 (55) 5321-4040</P>
+	    </div>	     
+	</div>     
+<!-----               esto es un SEPARADOR            ----->         
+</div>
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->     
+<!-----               esto es un SEPARADOR            ----->     
+	<div data-role="page" data-theme="b" id="OFERTAS">   
+    	<div data-role="header">
+			<h1>OFERTAS DE TEMPORADA</h1>
+		    <A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>
+		</div>
+<!-----               esto es un SEPARADOR            ----->     
+		<div data-role="content" data-theme="c" >	                
+			<div class="ui-grid-b">
+				<div class="ui-block-a">
+					<h3 align="center">PINZA DE CORTE </h3>   			 
+                	<img src="PINZA DE CORTE DIAGONALTRUPER.jpg" width="146">
+	                <h2 align="center">50% DESCUENTO</h2>
+				    <A data-role="button" href="#COMPRAR" data-transition="slide">COMPRAR </A>
+				</div>	
+	    		<div class="ui-block-b">
+					<h3 align="center">HIDROLAVADORA </h3>   			 
+        	        <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146">
+            	    <h2 align="center">10% DESCUENTO</h2>
+		    		<A data-role="button" href="#COMPRAR" data-transition="slide">COMPRAR </A>
+				</div>
+				<div class="ui-block-c">
+					<h3 align="center">PISTOLA DE SILICON</h3>
+            	    <img src="PISTOLA DE SILICON.jpg" width="146" height="104">
+                	<h2 align="center">40% DESCUENTO</h2>
+	        	    <A data-role="button" href="#COMPRAR" data-transition="slide">COMPRAR </A>
+				</div>
+			</div>
+		</div>
+<!-----               esto es un SEPARADOR            ----->           
+	</div>
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->                
+<div data-role="page" id="UBICACION" data-theme="b">
+<!-----               esto es un SEPARADOR            ----->   
+	<div data-role="header">
+		<h1>AGRANDA LA IMAGEN</h1>
+		<A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>
+	</div>
+<!-----               esto es un SEPARADOR            ----->   
+	<div data-role="content" data-theme="b" align="center">	  
+		<a href="#foto" data-rel="popup" data-position-to="window"><img src="UBI.jpg" alt="Skaret View" style="width:300px;"></a>                      
+        <P>Vía Gustavo Baz No.401, Fraccionamiento Industrial Tlaxcolpan en Tlalnepantla, 				 		Estado de México</P>
+	</div> 
+<!-----               esto es un SEPARADOR            ----->      
+ 	<div data-role="popup" id="foto">
+  		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="UBI.jpg" style="width:800px;height:500px;" alt="Skaret View">
+	</div>
+</div>
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<!-----               esto es un SEPARADOR            ----->
+<div data-role="page" id="PREGUNTAS" data-theme="b">
+<!-----               esto es un SEPARADOR            ----->   
+	<div data-role="header">
+		<h1>PREGUNTAS FRECUENTES</h1>
+		<A data-role="button" href="#INICIO" data-transition="slide">INICIO </A>
+	</div>
+<!-----               esto es un SEPARADOR            ----->   
+	<div data-role="content" data-theme="b" align="center">	  	                           
+       	<a href="#PAGO" data-rel="popup"data-position-to="window">¿CUÁLES SON LAS FORMAS DE PAGO?</a>    
+        <BR>
+        <BR>             
+        <a href="#TIEMPO" data-rel="popup"data-position-to="window">¿CUÁNTO TIEMPO TARDA EN LLEGAR MI PEDIDO?</a>  
+        <BR>
+        <BR>             
+        <a href="#RECOGER" data-rel="popup"data-position-to="window">¿PUEDO RECOGER MI PRODUCTO EN LA TIENDA?</a>   	
+	    <BR>
+        <BR>             
+        <a href="#ENVIO" data-rel="popup"data-position-to="window">¿EL ENVÍO TIENE ALGÚN COSTO?</a>   
+	</div>
+<!-----               esto es un SEPARADOR            ----->    
+    <div data-role="popup" id="PAGO">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<H3> ¿CUÁLES SON LAS FORMAS DE PAGO? </H3>
+        <P> Con tu cuenta de Paypal</P>
+		<P>Tarjeta de crédito </P>
+		<P>Transferencia electrónica o depósito bancario</P>
+		<P>Directamente en nuestro showroom con tarjeta de crédito o efectivo.</P>        
+	</div>  
+   <div data-role="popup" id="TIEMPO">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<H3> ¿CUÁNTO TIEMPO TARDA EN LLEGAR MI PEDIDO? </H3>
+        <P> Para clientes en la ciudad de México el pedido tarda de 1 a 2 días en llegar, para el resto de la república tarda de 3 a 5 días.</P>
+		<P>Para envios a Estados Unidos el envío llega de 5 a 7 días naturales.</P>
+	</div>  
+   <div data-role="popup" id="RECOGER">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<H3> ¿PUEDO RECOGER MI PRODUCTO EN LA TIENDA? </H3>
+        <P> Si se puede recoger y pagar su producto en el Showroom ubicado en Vía Gustavo Baz No.401 Fraccionamiento Industrial Tlaxcolpan en Tlalnepantla, Estado de México.</P>
+	</div>  
+   <div data-role="popup" id="ENVIO">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<H3> ¿EL ENVÍO TIENE ALGÚN COSTO? </H3>
+        <P>  Para cualquier parte de la República Mexicana el envío tiene un costo de $100.00 M/N..</P>
+	</div>    
+<!-----               esto es un SEPARADOR            ----->          
+</div>  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<!-----               esto es un SEPARADOR            ----->  
+<div data-role="page" id="EMPLEADOS" data-theme="b">
+<!-----               esto es un SEPARADOR            ----->  
+	<div data-role="header">
+		<h1>EMPLEADOS</h1>
+         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
+	</div>
+<!-----               esto es un SEPARADOR            ----->         
+	<div data-role="content" data-theme="c" >	
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive" data-column-btn-text="Boton" id="TABLAEMPLE">
         <thead>
         <tr>
  	       	<th data-priority="3">ID</th>
     	    <th data-priority="4">NOMBRE</th>
-        	<th>MATRICULA</th>
+        	<th>SEG.SOC.</th>
             <th data-priority="2">EDAD</th>
             <th data-priority="1">SEXO</th>
          </tr>
@@ -743,88 +1018,74 @@
 			<tr>
 				<td>1</td>
                 <td>ELIZABETH</td>
-                <td>040506</td>
-                <td>15</td>
+                <td>07011304</td>
+                <td>25</td>
                 <td>F</td>
 			</tr>
         	<tr>
 				<td>2</td>
                 <td>JOSE</td>
-	            <td>040507</td>
-	            <td>14</td>
+	            <td>07011356</td>
+	            <td>19</td>
 	            <td>M</td>
 			</tr>
-		</tbody>             
-    </table>                             
+        	<tr>
+				<td>3</td>
+                <td>MARIA</td>
+	            <td>07011467</td>
+	            <td>20</td>
+	            <td>F</td>
+			</tr>
+        	<tr>
+				<td>4</td>
+                <td>GONZALO</td>
+	            <td>07011485</td>
+	            <td>32</td>
+	            <td>M</td>
+			</tr>
+        	<tr>
+				<td>5</td>
+                <td>JUAN</td>
+	            <td>07014567</td>
+	            <td>29</td>
+	            <td>M</td>
+			</tr>                                   
+		</tbody>                     
+    </table>                                 
 	</div>    
+<!-----               esto es un SEPARADOR            ----->     
 </div>
-
-
-<div data-role="page" id="envios"  data-theme="e">
-
-	<div data-role="header">
-		<h1>ENVIOS</h1>
-         	<A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-	</div>
-    
-	<div data-role="content" data-theme="c" >	
-        <div align="center">
-    	<img src="FERRE.jpg" width="146" height="104" > <br/>
-        </div>
-        <div align="justify"> <br/>
-    	   COBERTURAS Y POLÍTICAS DE ENVÍO <br/> <br/>
-
-Realizamos entregas en toda la Republica Mexicana 100.00 M/N a cualquier región del país.  <br/> <br/>
-
-Para más información comunicate con nosotros al correo <br/> <br/>ventas@ferreteriamodelo.com o llama a nuestras oficinas +01 (55) 5321-4040  <br/>
-	    </div>	
-	</div>     
-</div>
-
-
-
-
-<div data-role="page" data-dialog="true" id="lala">   
-    <div data-role="header">
-		<h1>LALA</h1>
-	</div>
-	<div data-role="content" data-theme="c" >	
-        <div align="justify"> <br/>
-			lalalalala
-	    </div>	
-	</div>   
-</div> 
-
-
-
-
-<div data-role="page"  data-theme="c" id="columnas">   
-    <div data-role="header">
-		<h1>EJEMPLO DE COLUMNAS</h1>
-	</div>
-	<div data-role="content" data-theme="c" >	                
-		<div class="ui-grid-b">
-			<div class="ui-block-a">
-				<h3>PINZA DE CORTE </h3>   			 
-                <img src="PINZA DE CORTE DIAGONALTRUPER.jpg" width="146">
-                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-			</div>
-	
-    		<div class="ui-block-b">
-				<h3>HIDROLAVADORA </h3>   			 
-                <img src="HIDROLAVADORA ALTA PRESION.jpg" width="146">
-                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-			</div>
-
-			<div class="ui-block-c">
-				<h3>PISTOLA DE SILICON</h3>
-                <img src="PISTOLA DE SILICON.jpg" width="146" height="104">
-                <A data-role="button" data-rel="back" data-direction="reverse">ATRAZ </A>
-			</div>
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+<!-----               esto es un SEPARADOR            -----> 
+	<div data-role="page" data-theme="b" id="COMPRAR">   
+    		<div data-role="panel" id="MENU">
+    		<h2>MENU PRINCIPAL</h2>
+	            <a href="#PRODUCTOS" data-transition="slide">PRODUCTOS</a></P>
+		        <a href="#OFERTAS" data-transition="slide">OFERTAS</a></P>  
+                <a href="#UBICACION" data-transition="slide">UBICACION</a></P>   
+                <a href="#PREGUNTAS" data-transition="slide">PREG. FRECUENTES</a></P>        
+                <a href="#EMPLEADOS" data-transition="slide">EMPLEADOS</a></P> 
+	    </div> 
+<!-----               esto es un SEPARADOR            ----->           
+    	<div data-role="header">
+		    <A data-role="button" href="#MENU" data-transition="slide">MENU</A>
+			<h1>CARRITO DE COMPRAS</h1>
+		    <A data-role="button" href="#INICIO" data-transition="slide">INICIO</A>
 		</div>
-</div>
-	</div>   
-</div>
-
+<!-----               esto es un SEPARADOR            ----->     
+		<div data-role="content" data-theme="c" align="center" >	      
+            <img src="HOMBRAB.jpg" width="400" height="400" >           
+			<P> EN CONSTRUCCION </P>
+		</div>
+<!-----               esto es un SEPARADOR            ----->           
+	</div>
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            ----->           
+<!-----               esto es un SEPARADOR            -----> 
 </body>
 </html>
